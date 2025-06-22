@@ -3,3 +3,33 @@
 *::after {
     box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(240, 20%, 38%);
+}
+
+h1, h2, h3 {
+    color: hsl(0, 0%, 90%);
+    font: bold, 15pt "Times New Roman", serif;
+}
+
+a, p, li {
+    color: hsl(0, 0%, 80%);
+    font: 12pt Arial, sans-serif;
+}
+
+a {
+    color: hsl(300, 80%, 50%);
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    border: 2px solid hsl(0, 0%, 10%);
+    padding: 2pt;
+}
+
+img {
+    border: 5px solid hsl(300, 50%, 30%);
+    width: 200px;
+    height: auto;
+}
